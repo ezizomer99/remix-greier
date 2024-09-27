@@ -3,8 +3,8 @@ import { json, LoaderFunctionArgs, ActionFunctionArgs  } from "@remix-run/node";
 import { Form, useLoaderData, useFetcher, Outlet, useParams } from "@remix-run/react";
 import type { FunctionComponent } from "react";
 
-import type { ContactRecord } from "../../../data";
-import {getContact, updateContact} from "../../../data";
+import type { ContactRecord } from "../data";
+import {getContact, updateContact} from "../data";
 import invariant from "tiny-invariant";
 
 

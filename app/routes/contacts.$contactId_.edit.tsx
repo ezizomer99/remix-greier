@@ -16,7 +16,7 @@ import invariant from "tiny-invariant";
 import { 
     getContact,
     updateContact,
-} from "../../../data";
+} from "../data";
 
 export const action = async ({
     params,

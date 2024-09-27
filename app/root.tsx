@@ -46,7 +46,7 @@ export default function App() {
   useEffect(() => {
     const searchField = document.getElementById("q");
     if (searchField instanceof HTMLInputElement) {
-      searchField.value = q || "q";
+      searchField.value = q || "";
     }
   }, [q]);
 
